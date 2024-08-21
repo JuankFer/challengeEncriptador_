@@ -108,11 +108,13 @@ body{
       gap: 16px;
       border: 2px solid var(--color-terciario);
       width: 378px;
+      height: 45px;
       text-align: center;
       border-radius: 8px;
       font-size: 24px;
       font-weight: 600;
-      padding: 21.5px 0;
+      padding: 10px 0;
+      margin-bottom: -10px;
       text-decoration: none;
       color: #0d0d0d;
       font-family: var(--fuente-montserrat);
@@ -124,11 +126,13 @@ body{
     gap: 16px;
     border: 2px solid var(--color-terciario);
     width: 378px;
+    height: 45px;
     text-align: center;
     border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
-    padding: 21.5px 0;
+    padding:10px 0;
+    margin-bottom: -10px;
     text-decoration: none;
     color: #0d0d0d;
     font-family: var(--fuente-montserrat);   
@@ -213,6 +217,7 @@ body{
         width: 50%;
         font-size: 18px;
         font-stretch: extra-condensed;
+   
 
     }
     .desencip{
@@ -234,18 +239,19 @@ body{
        /* flex-direction: column-reverse;*/
        flex-direction: column;
         margin-top: -35%;
+        margin-left: 3rem;
     }
     .presentacion__contenido{
         width: auto;
     }
     .presentacion__enlaces__link{
         width: 50%;
-        font-size: 18px;
+        font-size: 14px;
         font-stretch: extra-condensed;
     }
     .color__boton2{
         width: 50%;
-        font-size: 18px;
+        font-size: 14px;
         font-stretch: extra-condensed;
 
     }
@@ -255,6 +261,7 @@ body{
     }
     .img1{
         margin-left: -10%;
+        margin-top: 15px;
     }
     
 }
