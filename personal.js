@@ -69,6 +69,8 @@ function decifra(a){
         }
         i=i+mas;
     }
+    document.getElementById("img1").style.display="none";
+    document.getElementById("tx").style.display="block";
     document.getElementById("tx").value=tx;
     document.getElementById("inicial").value = ""
 }
